@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x:auto;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+  padding-right: 50px;
+  /* background-image: url("background.jpg");
+  background-repeat: repeat;
+  background-size: cover; */
+}
+
+.right {
+  right: 0;
+  background-color: black;
+}
+
+.centered1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(10%, 10%); */
+  color: green;
+  left:40px;
+  top:90px;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.centered1 img {
+  width: 100px;
+  position: absolute;
+  top: -20px;
+  left: 155px;
+}
+
+.centered2 img {
+  width: 100px;
+  position: relative;
+  top: -8px;
+  left: 5px;
+  width: 805px;
+  height: 600px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="split left">
+  <form action="/login" method="post">
+    <div style=" color: teal">
+        <label for="email">Email-Id</label>
+        <input id="email" type="email" placeholder="Email" name="email">
+    </div>
+    <div style=" color: teal">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" name="password">
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+
+<div class="split right">
+  <div class="centered2">
+    <img src="/images/front1.jpg" alt='front1'>
+  </div>
+</div>
+<script scr="server\server.js"></script>
+</body>
+</html> 

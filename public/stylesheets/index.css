@@ -1,0 +1,53 @@
+
+.icon img{
+    position:relative;
+    height: 30px;
+    width: 30px;
+}
+
+.navbar navbar-expand-lg navbar-light bg-white{
+    max-height: 20px;
+}
+
+  .col{
+      padding-top: 20px;
+      padding-bottom: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .card{
+    width: 20rem; 
+    height: 27rem; 
+    border:1px solid transparent;
+  }
+
+      
+  .card-img-top{
+      height: 200px;
+      width: 100%;
+      position: relative;
+  }
+
+  .card-title{
+    text-align: center ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(56, 53, 53);
+    font-size:35px;
+    font-style: bold;
+  }
+
+  .attributes{
+      text-align: center;
+      /* padding-left: -10px;  */
+      color: rgb(127, 163, 199);
+      text-align: center;
+      margin-left: -200px;  
+  }
+
+  .att-detail{
+      list-style-type: none;
+  }
+
+  .dropdown-menu{
+      color: red;
+  }

@@ -1,0 +1,63 @@
+
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
+    <title>New Plant</title>
+  </head>
+  <body>
+    <div class="container text-center" id="formnew">
+      <h1>New Plant</h1>
+       <form action="/index" method="post">
+           <div class="form-row">
+               <div class="form-group col-md-4">
+                   <label for="name">Name</label>
+                   <input class="form-control form-control-sm" id="name" type="text" placeholder="Name" name="plant[name]">
+               </div>
+               <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                  </div>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="image" name="plant[image]" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                </div>
+           </div>
+           <div class="form-row">
+               <div class="form-group col-md-4">
+                   <label for="attribute1">Attribute1</label>
+                   <input class="form-control form-control-sm" id="attribute1" type="text" placeholder="1" name="plant[attribute1]">
+               </div>
+               <div class="form-group col-md-4">
+                   <label for="attribute2">Attribute2</label>
+                   <input class="form-control form-control-sm" id="attribute2" type="text" placeholder="2" name="plant[attribute2]">
+               </div>
+               <div class="form-group col-md-4">
+                   <label for="attribute3">Attribute3</label>
+                   <input class="form-control form-control-sm" id="attribute3" type="text" placeholder="3" name="plant[attribute3]">
+               </div>
+               <div class="form-group col-md-4">
+                 <label for="attribute4">Attribute4</label>
+                 <input class="form-control form-control-sm" id="attribute4" type="text" placeholder="4" name="plant[attribute4]">
+             </div>
+             <div class="form-group col-md-4">
+               <label for="attribute5">Attribute5</label>
+               <input class="form-control form-control-sm" id="attribute5" type="text" placeholder="5" name="plant[attribute5]">
+           </div>
+           </div>
+          
+           <button type="submit" class="btn btn-info" id="newsubmit" >Submit</button>
+       </form>
+   </div>
+   <script scr="server\server.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+     
+  </body>
+</html>
+
+

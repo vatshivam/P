@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x:auto;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+  padding-right: 50px;
+  /* background-image: url("background.jpg");
+  background-repeat: repeat;
+  background-size: cover; */
+}
+
+.right {
+  right: 0;
+  background-color: black;
+}
+
+.centered1 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(10%, 10%); */
+  color: green;
+  left:40px;
+  top:90px;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.centered1 img {
+  width: 100px;
+  position: absolute;
+  top: -20px;
+  left: 155px;
+}
+
+.centered2 img {
+  width: 100px;
+  position: relative;
+  top: -20px;
+  left: 5px;
+  width: 805px;
+  height: 590px;
+  padding-left: 0px;
+}
+
+.heading{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(59, 56, 56);
+    padding-right:30px;
+}
+
+
+.para{
+    font-size:15px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 30px;
+   
+
+}
+</style>
+<title>About Us</title>
+</head>
+<body>
+<div class="split left">
+  <div class="centered1">
+    <h1>Plant</h1>
+    <a href="/index">
+        <img src="/images/text-icon.jpg" alt='image'></a>
+        <div>
+            <div class ="heading">
+                <h1>About Us</h1>
+            </div>
+            <div class="para">
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br>
+                    when an unknown printer took a galley of type and scrambled it to make a type<br>
+                    specimen book. It has survived not only five centuries, but also the leap into<br>
+                    electronic typesetting, remaining essentially unchanged. It was popularised in<br>
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,<br>
+                    and more recently with desktop publishing software like Aldus PageMaker including<br>
+                    versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered2">
+    <img src="/images/front1.jpg" alt='tree-image'>
+  </div>
+</div>
+<script scr="server\server.js"></script>
+</body>
+</html> 
